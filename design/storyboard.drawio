@@ -1,11 +1,23 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="399" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2172" dy="1406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FF388E" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="40" width="760" height="480" as="geometry"/>
+                <mxCell id="7" value="&lt;font color=&quot;#f5f7ff&quot; style=&quot;font-size: 24px;&quot;&gt;Number Guessing Game&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#0D0DFF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="1019" height="590" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Select a number" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontColor=#000000;" parent="7" vertex="1">
+                    <mxGeometry x="30" y="85" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=24;fontColor=#000000;fillColor=none;strokeWidth=5;strokeColor=#000000;" parent="7" vertex="1">
+                    <mxGeometry x="40" y="160" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=24;fontColor=#000000;fillColor=none;strokeWidth=5;strokeColor=#000000;" parent="7" vertex="1">
+                    <mxGeometry x="40" y="250" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;strokeColor=none;" parent="7" vertex="1">
+                    <mxGeometry x="190" y="167.75" width="10" height="24.5" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
