@@ -10,7 +10,7 @@ const randomNumber = Math.floor(Math.random() * 6) + 1
 
 function myButtonClicked() {
   // input
-  const numberGuessed = parseInt(document.getElementById('guessed-number').value)
+  const numberGuessed = parseInt(document.getElementById('guess').value)
 
   // process
   if (numberGuessed == randomNumber) {
