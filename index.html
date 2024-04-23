@@ -37,22 +37,13 @@
             Select a number:
           </div>
         </div>
-        <!-- Simple Select with arrow -->
-        <div class="mdl-textfield mdl-js-textfield getmdl-select">
-          <input type="text" value="" class="mdl-textfield__input" id="guessed-number" readonly>
-          <input type="hidden" value="" name="guessed-number">
-          <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
-          <label for="sample2" class="mdl-textfield__label">Number Selected</label>
-          <ul for="sample2" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
-            <li class="mdl-menu__item" data-val="one">1</li>
-            <li class="mdl-menu__item" data-val="two">2</li>
-            <li class="mdl-menu__item" data-val="three">3</li>
-            <li class="mdl-menu__item" data-val="four">4</li>
-            <li class="mdl-menu__item" data-val="five">5</li>
-            <li class="mdl-menu__item" data-val="six">6</li>
-          </ul>
-        </div>
-        <br />
+          <form action="#">
+          <p>Try to guess the right number (1-6).</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="guess">
+            <label class="mdl-textfield__label" for="guess-entered">enter...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
         <!-- Colored raised button -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
@@ -60,6 +51,7 @@
         >
           Guess
         </button>
+        </form>
         <br />
         <br />
         <div class="page-content-answer">
